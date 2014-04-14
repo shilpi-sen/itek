@@ -1,0 +1,358 @@
+
+/* =Reset
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	
+	margin: 0;
+	
+	padding: 0;
+	
+}
+
+
+caption, th, td {
+	
+	text-align: right;
+}
+
+
+/* =Global
+----------------------------------------------- */
+
+
+/* Headings */
+
+hr {
+	
+	margin-bottom: 1.5em;
+}
+
+/* Text elements */
+p {
+	margin-bottom: 1.5em;
+}
+ul, ol {
+	margin: 0 3em 1.5em 0;
+}
+
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-right: 1.5em;
+	margin-left: 0;
+}
+
+dd {
+	margin: 0 1.5em 1.5em;
+}
+
+
+blockquote {
+	
+	margin: 0 0 24px;
+	margin: 0 0 2.4rem;
+}
+
+
+blockquote.pull p {
+	margin-bottom: 17px;
+	margin-bottom: 1.7rem;
+}
+blockquote.pull.alignleft,
+blockquote.pull.alignright {
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	padding-top: 17px;
+	padding-top: 1.7rem;
+	
+}
+blockquote.pull.alignleft {
+	margin: 7px 0 7px 24px;
+	margin: 0.7rem 0 0.7rem  2.4rem;
+}
+blockquote.pull.alignright {
+	margin: 7px 24px 7px 0;
+	margin: 0.7rem 2.4rem 0.7rem 0;
+}
+address {
+	margin: 0 0 1.5em;
+}
+pre {
+	
+	margin-bottom: 1.6em;
+	padding: 1.6em;
+}
+
+
+figure {
+	margin: 0;
+}
+table {
+	margin: 0 0 24px;
+	margin: 0 0 2.4rem;
+	
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	
+	padding: .6em 1em .4em;
+	
+}
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"] {
+	padding: 3px;
+}
+textarea {
+	
+	padding-right: 3px;
+	padding-left: 0px;
+	
+}
+
+/* Alignment */
+.alignleft {
+	
+	float: right;
+	margin-left: 1.5em;
+	margin-right: 0;
+}
+.alignright {
+	
+	float: left;
+	margin-left: 0;
+	margin-right: 1.5em;
+}
+.aligncenter {
+	
+	margin: 0 auto;
+}
+
+/* Text meant only for screen readers */
+
+
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+	
+	right: 5px;
+	left:auto;
+	
+	padding: 15px 23px 14px;
+	
+}
+
+/* Clearing */
+
+
+.site {
+	
+	margin: 0 auto;
+	margin-bottom: 0;
+	
+}
+
+/* =Content
+----------------------------------------------- */
+
+.sticky .entry-title {
+   
+   margin-top: 20px;
+}
+.sticky p {
+	padding-right: 10px;	
+	padding-left: 0px;
+}
+
+.hentry {
+	margin: 0 0 1.5em;
+	padding: 0 10px;
+	
+
+}
+
+
+.entry-header {
+	margin: 0 0 20px 0;
+}
+.single .entry-header {
+	margin-top: 35px;
+}
+.entry-title {
+	margin: 10px 0 20px 0;
+}
+
+
+
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 1.5em 0;
+}
+.page-links {
+	
+	margin: 0 0 1.5em;
+}
+
+.entry-content table,
+.comment-content table {
+	
+	margin-bottom: 24px;
+	margin-bottom: 2.4rem;
+}
+.entry-content th,
+.comment-content th {
+	
+	padding: 8px;
+	padding: 0.8rem;
+	
+}
+.entry-content td,
+.comment-content td {
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-left: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 8px;
+	padding: 0.8rem;
+}
+.entry-thumbnail img{
+   float: none;
+   padding: 0;
+}
+
+.summary-thumbnail {
+   float: right;
+  
+   margin: 0 auto;
+   padding: 0 0 10px 15px;
+}
+
+
+/* =Media
+----------------------------------------------- */
+
+.page-content img.wp-smiley,
+.entry-content img.wp-smiley,
+.comment-content img.wp-smiley {
+	
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+.wp-caption {
+	
+	margin-bottom: 1.5em;
+	
+}
+.wp-caption img[class*="wp-image-"] {
+	
+	margin: 1.2% auto 0;
+	
+}
+
+.wp-caption .wp-caption-text {
+	margin: 0.8075em 0;
+}
+.site-content .gallery {
+	margin-bottom: 1.5em;
+}
+
+
+.site-content .gallery dd {
+	margin: 0;
+}
+
+/* Make sure embeds and iframes fit their containers */
+
+embed,
+iframe,
+object,
+video {
+	margin-bottom: 24px;
+}
+
+p > embed,
+p > iframe,
+p > object,
+span > embed,
+span > iframe,
+span > object {
+	margin-bottom: 0;
+}
+
+
+/* =Navigation
+----------------------------------------------- */
+
+.site-content [class*="navigation"] {
+	margin: 0 0 1.5em;
+	
+}
+[class*="navigation"] .nav-previous {
+	float: right;
+	
+}
+[class*="navigation"] .nav-next {
+	float: left;
+	text-align: left;
+	
+}
+
+
+
+/* Footer */
+.site-footer {
+   margin: 0 auto;
+   margin-top: 0px;
+   padding-top: 10px;
+  
+}
+
+.itek-copyright {
+   margin: 0 auto;
+	
+	padding: 30px 10px 5px 10px;
+	
+}
+.site-info {
+	margin: 0 auto;
+	
+	padding: 10px;
+	
+}
+
+/* =Infinite Scroll
+----------------------------------------------- */
+
+
+.itek-left #main.site-main{
+					
+						float:none;
+						}
+					
+.itek-left #secondary.widget-area{
+					
+						float:left;
+						}
+.itek-left #post-701{
+				float:right;
+				}
+
+					
+					

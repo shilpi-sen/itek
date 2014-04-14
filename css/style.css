@@ -683,17 +683,53 @@ span > object {
 .itek-red #menu-all-pages{
 					background-color:red;
 					}
-
 #main.site-main{
 						width:100%;
 						float:none;
 						}
 					
+
+ #post-701{
+				width:65%;
+				float:left;
+				}	
 #secondary.widget-area{
 						width:33%;
 						float:right;
+						}				
+
+.itek-left #main.site-main{
+						width:100%;
+						float:none;
 						}
-#post-701{
+					
+
+.itek-left #post-701{
+				width:65%;
+				float:right;
+				}	
+.itek-left #secondary.widget-area{
+						width:33%;
+						float:left;
+						
+						}	
+.itek-right #main.site-main{
+						width:100%;
+						float:none;
+						}
+					
+
+.itek-right #post-701{
 				width:65%;
 				float:left;
-				}
+				}	
+.itek-right #secondary.widget-area{
+						width:33%;
+						float:right;
+						
+						}								
+
+
+
+					
+					

@@ -1,4 +1,4 @@
-== Itek Theme==
+== Itek Wordpress Theme==
 Itek - Business & Shopping centric theme ideal for building websites in any give niche online. 
 Itek comes packed with the following features: 4 menu locations (3 standard + 1 Social links), 2 Widget areas (Sidebar + Showcase area), 
 3 Custom Widgets (Itek Ephemera, Itek Page Showcase + Itek Recent Posts), Custom header with Parallax effect below top menu, 
